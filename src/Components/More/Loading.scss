@@ -1,0 +1,69 @@
+$font: 'Montserrat', sans-serif;
+
+$blue: #4285f4;
+$red: #db4437;
+$yellow: #f4b400;
+$green: #0f9d58;
+$colors-list: $blue $red $yellow $green;
+
+.google-loader {
+    display: block;
+    span {
+        display: inline-block;
+        margin-top: 10px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        &:not(:first-child) {
+            margin-left: 10px;
+        }
+    }
+    @each $current-color in $colors-list {
+        $i: index($colors-list, $current-color);
+        $t: $i * -0.25;
+        span:nth-child(#{$i}) {
+            background: $current-color;
+            animation: move 1s ease-in-out (#{$t}s) infinite alternate;
+        }
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translateY(-10px);
+    }
+    to {
+        transform: translateY(5px);
+    }
+}
+
+.google-loader-icon {
+    &:first-child {
+        color: $blue;
+    }
+    &:nth-child(2) {
+        color: $red;
+    }
+    &:nth-child(3) {
+        color: $yellow;
+    }
+    &:nth-child(4) {
+        color: $blue;
+    }
+    &:nth-child(5) {
+        color: $green;
+    }
+    &:last-child {
+        color: $red;
+        transform: rotate(-20deg);
+        display: inline-block;
+    }
+}
+
+.loading {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,20 @@
+.Product-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Product-input {
+    width: 100%;
+}
+
+.avatar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-preview {
+    width: 100px;
+}

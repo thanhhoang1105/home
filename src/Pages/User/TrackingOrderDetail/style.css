@@ -1,0 +1,137 @@
+.Order-top_details {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Order-bottom_details {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Order-bottom-left_details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    flex: 1;
+}
+
+.Order-bottom-right_details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 20%;
+    flex: 1;
+}
+
+.Order-bottom-left-item_details {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 10px 5px 0;
+}
+
+.Order-bottom-right-item_details {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 0px 5px 10px;
+}
+
+.Order_content {
+    display: flex;
+    gap: 10px;
+}
+
+.Order_content_left {
+    width: 50%;
+}
+
+.Order_content_right {
+    width: 50%;
+}
+
+.Order-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Order-top-right {
+    display: flex;
+    gap: 10px;
+}
+
+.Order-top-right-center {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Order-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Order-center-left {
+    display: flex;
+    gap: 15px;
+}
+
+img.Order-center-Image {
+    width: 100px;
+}
+
+.Order-center-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.Order-bottom {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Order-bottom-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    flex: 3;
+}
+
+.Order-bottom-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+    flex: 1;
+}
+
+.Order-bottom-left-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 10px 5px 0;
+}
+
+.Order-bottom-right-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 0px 5px 0;
+}

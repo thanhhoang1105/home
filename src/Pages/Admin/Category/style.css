@@ -1,0 +1,22 @@
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+.fa-eye {
+    font-size: 20px;
+}
+.fa-trash-alt {
+    font-size: 20px;
+}
+
+.Order-top_details_button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Order-top-right-item_button {
+    display: flex;
+    gap: 20px;
+}
